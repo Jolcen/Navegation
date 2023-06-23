@@ -5,9 +5,9 @@ import './Header.css'
 const Header = () => {
   return (
     <div className='header-container'>
-        <a href="/home">home</a>
-        <a href="/about">About</a>
-        <a href="/dashboard">Dasboard</a>
+        <a href="/home"><li>home</li></a>
+        <a href="/about"><li>About</li></a>
+        <a href="/dashboard"><li>Dasboard</li></a>
         <div className="line"></div>
     </div>
   )
